@@ -30,3 +30,6 @@ n//=2
 print("n//=2", n)
 n**=2
 print("n**=2", n)
+
+# Operadores LOGICOS
+# Operadores de comparacion
