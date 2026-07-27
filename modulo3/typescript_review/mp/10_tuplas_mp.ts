@@ -1,0 +1,13 @@
+type CoordenadaGPS = [number, number];           
+type NivelTrafico = [number, number, number];    
+type Frecuencia = [string, number];              
+const posicionBus: CoordenadaGPS = [-0.180653, -78.467834];
+const traficoAvenida: NivelTrafico = [10, 40, 50];            
+const frecuenciaRuta: Frecuencia = ["Ruta Sur", 15];
+const [latitud, longitud] = posicionBus;
+const [bajo, medio, alto] = traficoAvenida;
+const [ruta, minutos_espera] = frecuenciaRuta;
+console.log(`Posición: lat=${latitud}, lon=${longitud}`);         
+console.log(`Tráfico: bajo=${bajo}%, medio=${medio}%, alto=${alto}%`); 
+type Turno = [inicioHora: number, finHora: number];
+const turnoManana: Turno = [5, 14];              
